@@ -8,14 +8,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-bebas {
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
 </head>
 <body>
     <!-- header area starts here -->
-    <header class="bg-amber-100 pt-11 pb-16">
-        <div class="flex justify-center
-        items-center gap-36">
+    <header class="bg-amber-100 py-20 px-4 md:px-32">
+        <!-- nav area -->
+        <nav class="flex justify-between items-center pb-4">
             <div>
-                <h1 class="text-[80px]">
+                <img class="w-72" src="icons/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="flex gap-14 text-[#3C3C3C] font-medium leading-6">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>        
+        <!-- banner section -->
+        <div class="flex flex-col md:flex-row justify-between
+        items-center">
+            <div>
+                <h1 class="text-[80px] uppercase font-bebas">
                     <span class="text-[#FABE4C]">Be the Penguins</span> <br>
                     <span class="text-[#363958]">of Winter</span></h1>
                     <p class="mb-2">Lorem Ipsum is simply dummy text of the printing 

@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion Using</title>
+    <!-- google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Font Awesome Icon CDN -->
     <script src="https://kit.fontawesome.com/73dcb47781.js" crossorigin="anonymous"></script>
     <!-- Tailwind CSS CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <style>
+        .font-roboto{
+            font-family: "Roboto", sans-serif;
+        }
+        .font-bebas-neue{
+            font-family: "Bebas Neue", sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <header class="bg-[#FFFBF0]">
+<body class="font-roboto">
+    <header class="bg-[#FFFBF0] px-4">
         <nav>
 
         </nav>
         <!-- Banner Area -->
-         <div class="flex justify-center items-center">
+         <div class="md:flex md:items-center md:justify-around">
             <div class="">
-                <h1 class="text-7xl uppercase"><span class="text-yellow-400">Be the Penguins</span> <br> <span class="text-sky-950">of Winter</span></h1>
-                <p class="text-[#3E3E3E] w-[357px]">Penguins embody timeless elegance with their natural tuxedo-style feathers, perfect for Antarctic.</p>
+                <h1 class="text-7xl uppercase font-bebas-neue"><span class="text-yellow-400">Be the Penguins</span> <br> <span class="text-sky-950">of Winter</span></h1>
+                <p class="text-[#3E3E3E] w-[357px] pb-2">Penguins embody timeless elegance with their natural tuxedo-style feathers, perfect for Antarctic.</p>
                 <button class="bg-gradient-to-b from-[#A4BC46] to-[#85A019] text-white px-8 py-4 rounded-lg"><i class="fa-solid fa-cart-shopping mr-2"></i> <span class="uppercase text-base font-semibold">Buy Now</span></button>
             </div>
             <div>
